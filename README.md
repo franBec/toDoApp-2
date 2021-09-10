@@ -1,7 +1,8 @@
-# toDoApp
+# toDoApp 2!
 
 ## Running the app
-Right now you can use it online here: https://to-do-app-2.herokuapp.com/ tho is not working correctly, Im fixing right now
+Right now you can use it online here: https://to-do-app-2.herokuapp.com/ tho is not working correctly, I'm fixing it right now
+
 Anyways, if you really need to run it on your localmachine, you'll need a .env document, that is not here uploaded for security reasons (user and password of the database). So you can:
 - create your own .env with your own database info, just gotta be careful about constant process.env.CONSTANT names, and the line
 ```
@@ -16,13 +17,18 @@ where
 - param2 = the schema, also defined in /models/Tasks.js
 - param3= SAME NAME that MongoDB is using for collection
 
-once here, open a command prompt at the root proyect folder and run
+once here, you'll need two commands prompt
+-open one of them in the root folder of the proyect and run
 ```
-npm run dev
+npm start
 ```
 wait till the message "Connected to database!" pop up
 
-Also, now in this github theres no front end data for you to view and download, I'll post it in a bit
+-open the other one in the to-do-2 folder (is the usually called client folder) and run
+
+```
+npm run start
+```
 
 if you are not feeling like creating this .env file and change /models/Tasks.js, feel free to contact me at my [linkedin](https://www.linkedin.com/in/franco-becvort/) or [gmail](mailto:franbecvort@gmail.com), and I'll help you no problem, making the changes, or lending you the .env of myself (at the end, this is a begginer app, but you know, security is a big deal)
 
