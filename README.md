@@ -35,7 +35,7 @@ It is all done in Javascript, using Node.js 14.16.0 as runtime environment, and.
 - [Mongoose 6.0.4](https://mongoosejs.com): Object modeling for Node.js
 
 ...And the frontend dependencies
-- [Bootstrap 5.1.1]("https://getbootstrap.com): Responsive design
+- [Bootstrap 5.1.1](https://getbootstrap.com): Responsive design
 - [Axios 0.21.4](https://www.npmjs.com/package/axios): HTTP Client request/response tool
 - [React Router 5.3.0](https://reactrouter.com): Collection of navigational components
 
