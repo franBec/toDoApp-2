@@ -19,7 +19,10 @@ router.get('/:id', (req,res)=>{
 router.post('/', async(req,res)=>{
     try {
         await new Task(req.body).save()
-            .then(() => res.json('Post request succesfully done!'))
+            .then(() => res.json({
+                state: true,
+                message: 'Post OK!'
+            }))
             .catch(error => res.status(400).json('Error' + error))
         
     } catch (error) {console.log(error)}
