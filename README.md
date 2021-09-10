@@ -1,7 +1,7 @@
 # toDoApp
 
 ## Running the app
-Right now you can use it online here: https://to-do-app-becvort.herokuapp.com/
+Right now you can use it online here: https://to-do-app-2.herokuapp.com/ tho is not working correctly, Im fixing right now
 Anyways, if you really need to run it on your localmachine, you'll need a .env document, that is not here uploaded for security reasons (user and password of the database). So you can:
 - create your own .env with your own database info, just gotta be careful about constant process.env.CONSTANT names, and the line
 ```
@@ -22,13 +22,13 @@ npm run dev
 ```
 wait till the message "Connected to database!" pop up
 
+Also, now in this github theres no front end data for you to view and download, I'll post it in a bit
+
 if you are not feeling like creating this .env file and change /models/Tasks.js, feel free to contact me at my [linkedin](https://www.linkedin.com/in/franco-becvort/) or [gmail](mailto:franbecvort@gmail.com), and I'll help you no problem, making the changes, or lending you the .env of myself (at the end, this is a begginer app, but you know, security is a big deal)
 
 ## Technologies Used
 It is all done in Javascript, using Node.js 14.16.0 as runtime environment, and these packages:
-- [Body Parser 1.19.0](https://www.npmjs.com/package/body-parser): Parses incoming request bodies
 - [Dotenv 10.0.0](https://www.npmjs.com/package/dotenv): Loads environment variables
-- [EJS 3.1.14](https://ejs.co/): Embedded Javascript template
 - [Express.js 4.17.1](https://expressjs.com/): Web application framework
 - [Mongoose 6.0.4](https://mongoosejs.com/): Object modeling for Node.js
 
