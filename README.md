@@ -26,7 +26,11 @@ npm run start
 if you are not feeling like creating this .env file and change /models/Tasks.js, feel free to contact me at my [linkedin](https://www.linkedin.com/in/franco-becvort/) or [gmail](mailto:franbecvort@gmail.com), and I'll help you no problem, making the changes, or lending you the .env of myself (at the end, this is a begginer app, but you know, security is a big deal)
 
 ## Technologies Used
-It is all done in Javascript, using Node.js 14.16.0 as runtime environment, and...
+It is all done in Javascript, using
+- Node.js 14.16.0 as runtime environment
+- Reacts.js as User Interface library
+
+and...
 
 ...These backend dependencies:
 - [CORS 2.8.5](https://developer.mozilla.org/es/docs/Web/HTTP/CORS): Mechanism that allows requesting restricted resources
