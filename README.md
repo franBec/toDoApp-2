@@ -1,7 +1,7 @@
 # toDoApp 2!
 
 ## Running the app
-Right now you can use it online here: https://to-do-app-2.herokuapp.com/ tho it has a bug, explained in the home page
+It has a bug, explained in the home page
 
 Anyways, if you really need to run it on your localmachine, you'll need a .env document, that is not here uploaded for security reasons (user and password of the database). So you can:
 - create your own .env with your own database info, just gotta be careful about constant process.env.CONSTANT names, and the line
